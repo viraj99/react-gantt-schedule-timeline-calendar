@@ -152,4 +152,4 @@ function App() {
 
 ## license
 
-GPL-3.0 (for non GPL-3.0 projects you must buy commercial license - contact me at neuronet.io@gmail.com)
+AGPL-3.0 (for non AGPL-3.0 projects you must buy commercial license - contact me at neuronet.io@gmail.com)
