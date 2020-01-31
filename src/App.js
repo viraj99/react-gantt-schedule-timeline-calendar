@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import GSTC from "./GSTC";
+import GSTC from "./components/GSTC";
 
 function App() {
   const config = {

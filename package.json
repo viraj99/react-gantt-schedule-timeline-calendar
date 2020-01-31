@@ -2,7 +2,7 @@
   "name": "react-gantt-schedule-timeline-calendar",
   "version": "1.1.18",
   "license": "AGPL-3.0",
-  "main": "src/GSTC.js",
+  "main": "dist/GSTC.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:component": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +51,14 @@
     "project manager",
     "react tasks",
     "tasks"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.8.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
 }
